@@ -12,6 +12,8 @@
 		B22731131E82C6E200F370EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22731111E82C6E200F370EB /* Main.storyboard */; };
 		B22731151E82C6E200F370EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22731141E82C6E200F370EB /* Assets.xcassets */; };
 		B22731181E82C6E200F370EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22731161E82C6E200F370EB /* LaunchScreen.storyboard */; };
+		B22731221E82CBA300F370EB /* BinaryCounterCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22731211E82CBA300F370EB /* BinaryCounterCustomCell.swift */; };
+		B22731241E82CF6800F370EB /* BinaryCounterCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22731231E82CF6800F370EB /* BinaryCounterCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B22731141E82C6E200F370EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B22731171E82C6E200F370EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B22731191E82C6E200F370EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22731211E82CBA300F370EB /* BinaryCounterCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryCounterCustomCell.swift; sourceTree = SOURCE_ROOT; };
+		B22731231E82CF6800F370EB /* BinaryCounterCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryCounterCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B227310D1E82C6E200F370EB /* AppDelegate.swift */,
 				B227310F1E82C6E200F370EB /* ViewController.swift */,
+				B22731211E82CBA300F370EB /* BinaryCounterCustomCell.swift */,
+				B22731231E82CF6800F370EB /* BinaryCounterCellDelegate.swift */,
 				B22731111E82C6E200F370EB /* Main.storyboard */,
 				B22731141E82C6E200F370EB /* Assets.xcassets */,
 				B22731161E82C6E200F370EB /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				B22731101E82C6E200F370EB /* ViewController.swift in Sources */,
 				B227310E1E82C6E200F370EB /* AppDelegate.swift in Sources */,
+				B22731241E82CF6800F370EB /* BinaryCounterCellDelegate.swift in Sources */,
+				B22731221E82CBA300F370EB /* BinaryCounterCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
